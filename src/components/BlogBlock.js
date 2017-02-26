@@ -18,7 +18,7 @@ export default class extends Component {
                 그냥 이것 저것 쓰는 블로그
               </p>
               <a
-                className="btn btn-lg btn-hoshii m-b"
+                className="btn btn-lg btn-hoshii mb-3"
                 href="http://blog.niceb5y.net/"
                 role="button"
               >
