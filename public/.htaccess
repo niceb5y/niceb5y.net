@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^blog/(.+)$ https://blog.niceb5y.net/$1 [R=301,L]
+RewriteRule ^blog/ https://blog.niceb5y.net/ [R=301,L]
+RewriteRule ^blog https://blog.niceb5y.net/ [R=301,L]
+</IfModule>

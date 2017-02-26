@@ -1,0 +1,44 @@
+[
+  {
+    "icon": "twitter",
+    "title": "Twitter",
+    "link": "https://twitter.com/niceb5y",
+    "desc": "쓸만한 말은 없습니다.",
+    "color": "amami"
+  },
+  {
+    "icon": "github",
+    "title": "Github",
+    "link": "https://github.com/niceb5y",
+    "desc": "뭐하러 만들었지 싶은 것들.",
+    "color": "kisaragi"
+  },
+  {
+    "icon": "help",
+    "title": "Ask.fm",
+    "link": "https://ask.fm/niceb5y",
+    "desc": "질문 받습니다.",
+    "color": "hoshii"
+  },
+  {
+    "icon": "tumblr",
+    "title": "Tumblr",
+    "link": "https://niceb5y.tumblr.com",
+    "desc": "거의 구독용 계정",
+    "color": "takasuki"
+  },
+  {
+    "icon": "instagram",
+    "title": "Instagram",
+    "link": "https://instagram.com/niceb5y",
+    "desc": "#사진_잘_찍고_싶습니다.",
+    "color": "akizuki"
+  },
+  {
+    "icon": "mail",
+    "title": "Mail",
+    "link": "mailto:niceb5y+nn@gmail.com",
+    "desc": "스팸 ㄴㄴ",
+    "color": "kikuchi"
+  }
+]
