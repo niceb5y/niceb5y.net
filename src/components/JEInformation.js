@@ -19,6 +19,9 @@ export default class extends Component {
             <p className="lead">
               <a className="text-takasuki" href="https://twitter.com/bugbear5">떠돌이</a>님이 제작하신 Ubuntu JE의 비공식 미러입니다.
             </p>
+            <div className="alert alert-warning" role="alert">
+              niceb5y mirror 서비스가 2018년 2월 1일에 종료됩니다.
+            </div>
           </div>
         </div>
       </div>
