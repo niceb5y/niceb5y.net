@@ -18,7 +18,7 @@
     "styled-jsx": "^2.2.3"
   },
   "scripts": {
-    "start": "parcel src/index.html -p 3000",
-    "build": "parcel build src/index.html -d build  --no-cache"
+    "start": "parcel src/index.html -p 3000 -d build",
+    "build": "parcel build src/index.html -d build --public-url ./ --no-cache"
   }
 }

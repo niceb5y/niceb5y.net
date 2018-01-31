@@ -8,7 +8,7 @@
 
 # production
 /build
-!/build/_redirects
+!build/_redirects
 
 # misc
 .DS_Store
