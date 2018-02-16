@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-import profile from '../images/profile.jpg'
+import profile from '../../images/profile.jpg'
+
+import './HelloBlock.css'
 
 export default class extends Component {
   render() {
@@ -19,11 +21,6 @@ export default class extends Component {
             </p>
           </div>
         </div>
-        <style jsx>{`
-          img {
-            width: 100px;
-          }                          
-        `}</style>
       </div>
     )
   }

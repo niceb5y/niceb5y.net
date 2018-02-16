@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import Contact from './Contact'
-import ContactData from '../data/Contact.json'
+import ContactData from '../../data/Contact.json'
 
 export default class extends Component {
   render() {

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-import HelloBlock from '../../components/HelloBlock'
-import BlogBlock from '../../components/BlogBlock'
-import ContactBlock from '../../components/ContactBlock'
-import GamingBlock from '../../components/GamingBlock'
-import LinkBlock from '../../components/LinkBlock'
-import DonateBlock from '../../components/DonateBlock'
+import HelloBlock from '../../components/HelloBlock/HelloBlock'
+import BlogBlock from '../../components/BlogBlock/BlogBlock'
+import ContactBlock from '../../components/ContactBlock/ContactBlock'
+import GamingBlock from '../../components/GamingBlock/GamingBlock'
+import LinkBlock from '../../components/LinkBlock/LinkBlock'
+import DonateBlock from '../../components/DonateBlock/DonateBlock'
 
 export default class extends Component {
   render() {

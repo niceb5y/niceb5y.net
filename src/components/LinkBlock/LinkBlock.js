@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import LinkData from '../data/Link.json'
+import LinkData from '../../data/Link.json'
 
 export default class extends Component {
   render() {

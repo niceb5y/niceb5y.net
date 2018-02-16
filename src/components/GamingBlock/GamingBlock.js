@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import GamingData from '../data/Gaming.json'
+import GamingData from '../../data/Gaming.json'
 
 export default class extends Component {
   render() {

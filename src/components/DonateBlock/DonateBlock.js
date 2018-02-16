@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import DonateData from '../data/Donate.json'
+import DonateData from '../../data/Donate.json'
 
 export default class extends Component {
   render() {

@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 
-import blog from '../images/blog.jpg'
+import blog from '../../images/blog.jpg'
+
+import './BlogBlock.css'
 
 export default class extends Component {
   render() {
     return (
-      <div className="block block-bordered-lg pb-0">
+      <div className="BlogBlock block block-bordered-lg pb-0">
         <div className="container">
           <div className="row">
             <div id="image-container" className="col-md-5 col-sm-6">
@@ -27,15 +29,6 @@ export default class extends Component {
             </div>
           </div>
         </div>
-        <style jsx>{`
-          #image-container {
-            overflow:hidden;
-          }
-
-          img {
-            transform: translateY(50px)
-          }
-        `}</style>
       </div>
     )
   }
