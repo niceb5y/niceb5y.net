@@ -19,6 +19,10 @@ export default class extends Component {
             <p className="text-muted">
               컴퓨터 잘 못합니다.
             </p>
+            <p className="mt-5">
+              저는 어떠한 종류의 인터넷 검열도 반대합니다.&nbsp;
+              <a href="https://savetheinternet.kr" target="_blank">#SaveTheInternetKR</a>
+            </p>
           </div>
         </div>
       </div>
