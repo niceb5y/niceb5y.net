@@ -30,6 +30,10 @@
       {
         "urlPattern": "https://deresute.me/783331608/large",
         "handler": "fastest"
+      },
+      {
+        "urlPattern": "https://cdn.shk.im/(.*)",
+        "handler": "fastest"
       }
   ]
   }
