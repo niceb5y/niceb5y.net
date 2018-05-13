@@ -18,7 +18,19 @@
     "parcel-plugin-sw-precache": "^0.5.1"
   },
   "scripts": {
-    "start": "parcel src/index.html -p 3000 -d build",
-    "build": "parcel build src/index.html -d build --public-url ./"
+    "start": "parcel src/index.html -p 3000",
+    "build": "parcel build src/index.html"
+  },
+  "sw-precache": {
+    "runtimeCaching": [
+      {
+        "urlPattern": "https://card.psnprofiles.com/1/ShKim_niceb5y.png",
+        "handler": "fastest"
+      },
+      {
+        "urlPattern": "https://deresute.me/783331608/large",
+        "handler": "fastest"
+      }
+  ]
   }
 }

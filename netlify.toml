@@ -1,0 +1,12 @@
+[Settings]
+  ID = "niceb5y-net"
+
+[build]
+  publish = "dist/"
+  command = "yarn run build"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+force = false
