@@ -25,15 +25,15 @@
     "runtimeCaching": [
       {
         "urlPattern": "https://card.psnprofiles.com/1/ShKim_niceb5y.png",
-        "handler": "fastest"
+        "handler": "cacheFirst"
       },
       {
         "urlPattern": "https://deresute.me/783331608/large",
-        "handler": "fastest"
+        "handler": "cacheFirst"
       },
       {
         "urlPattern": "https://cdn.shk.im/(.*)",
-        "handler": "fastest"
+        "handler": "cacheFirst"
       }
   ]
   }
