@@ -1,23 +1,19 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class extends Component {
-  render() {
-    return (
-      <div className="col-sm-6">
-        <div className={ 'card card-inverse card-' + this.props.color + ' mb-3 text-center' }>
-          <div className="card-block">
-            <a href={this.props.link}>
-              <h3 className="card-title">
-                <span className={ 'icon icon-' + this.props.icon }></span>
-                { ' ' + this.props.title }
-              </h3>
-            </a>
-            <p className="card-text">
-              { this.props.desc }
-            </p>
-          </div>
-        </div>
+export default ({icon, title, link, desc}) =>  (
+  <div className="col-sm-6 py-3">
+    <div className={ 'card text-center' }>
+      <div className="card-block">
+        <a href={link}>
+          <h3 className="card-title">
+            <span className={ 'icon icon-' + icon }></span>
+            { ' ' + title }
+          </h3>
+        </a>
+        <p className="card-text">
+          { desc }
+        </p>
       </div>
-    )
-  }
-}
+    </div>
+  </div>
+)

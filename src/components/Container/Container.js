@@ -1,16 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Header from './Header'
 import Footer from './Footer'
 
-export default class extends Component {
-  render() {
-    return (
-      <div className="container">
-        <Header theme="kisaragi" title="niceb5y web" />
-          {React.cloneElement(this.props.children)}
-        <Footer />
-      </div>
-    )
-  }
-}
+export default ({children}) => (
+  <div className="container">
+    <Header title="niceb5y web" />
+      {React.cloneElement(children)}
+    <Footer />
+  </div>
+)
