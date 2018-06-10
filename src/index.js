@@ -10,7 +10,7 @@ ReactDOM.render(
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    const swUrl = `/service-worker.js`
+    const swUrl = `/sw.js`
     navigator.serviceWorker.register(swUrl)
   })
 }
