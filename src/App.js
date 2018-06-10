@@ -15,7 +15,7 @@ export default () => {
 	return (
 		<Router>
 			<div className="container">
-				<Header theme="kisaragi" title="niceb5y web" />
+				<Header title="niceb5y web" />
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route component={NotFound} />

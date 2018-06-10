@@ -18,7 +18,7 @@ export default () => (
             그냥 이것 저것 쓰는 블로그
           </p>
           <a
-            className="btn btn-lg mb-3"
+            className="btn btn-lg btn-outline-primary mb-3"
             href="http://blog.niceb5y.net/"
             role="button"
           >
