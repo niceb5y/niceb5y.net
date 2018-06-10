@@ -34,6 +34,10 @@
       {
         "urlPattern": ["https:\/\/cdn.shk.im\/.*"],
         "handler": "cacheFirst"
+      },
+      {
+        "urlPattern": ["https:\/\/cdn.jsdelivr.net\/npm\/spoqa-han-sans@.*"],
+        "handler": "cacheFirst"
       }
     ]
   }
