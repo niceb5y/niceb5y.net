@@ -11,6 +11,16 @@ ReactDOM.render(
 if ('serviceWorker' in navigator && process.env.NODE_ENV === 'production') {
   window.addEventListener('load', () => {
     const swUrl = `/sw.js`
-    navigator.serviceWorker.register(swUrl)
+    navigator.serviceWorker.register(swUrl).then(registration => {
+      registration.onupdatefound = () => {
+        registration.installing.onstatechange = () => {
+          if (registration.installing && registration.installing.state === 'installed') {
+            if (navigator.serviceWorker.controller) {
+              window.location.reload()
+            }
+          }
+        }
+      }
+    })
   })
 }
