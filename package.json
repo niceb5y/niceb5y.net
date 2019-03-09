@@ -1,48 +1,39 @@
 {
-  "name": "niceb5y.net",
-  "version": "0.1.0",
+  "name": "niceb5y-web",
   "private": true,
+  "description": "Source code of niceb5y.net",
+  "version": "0.1.0",
+  "author": "Seungho Kim <niceb5y@gmail.com>",
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1"
+    "gatsby": "^2.1.17",
+    "gatsby-image": "^2.0.29",
+    "gatsby-plugin-manifest": "^2.0.19",
+    "gatsby-plugin-netlify": "^2.0.11",
+    "gatsby-plugin-netlify-cache": "^1.0.0",
+    "gatsby-plugin-offline": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.6",
+    "gatsby-plugin-sharp": "^2.0.22",
+    "gatsby-plugin-typescript": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.22",
+    "gatsby-transformer-sharp": "^2.1.14",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3",
-    "parcel-plugin-prerender": "^1.1.0",
-    "parcel-plugin-sw-cache": "^0.2.6"
+    "prettier": "^1.16.4"
   },
+  "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html -p 3000",
-    "build": "parcel build src/index.html --no-source-maps"
+    "build": "gatsby build",
+    "develop": "gatsby develop --port 3000",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
   },
-  "cache": {
-    "runtimeCaching": [
-      {
-        "urlPattern": [
-          "https://card.psnprofiles.com/1/ShKim_niceb5y.png"
-        ],
-        "handler": "cacheFirst"
-      },
-      {
-        "urlPattern": [
-          "https://deresute.me/783331608/large"
-        ],
-        "handler": "cacheFirst"
-      },
-      {
-        "urlPattern": [
-          "https://cdn.shk.im/.*"
-        ],
-        "handler": "cacheFirst"
-      },
-      {
-        "urlPattern": [
-          "https://cdn.jsdelivr.net/npm/spoqa-han-sans@.*"
-        ],
-        "handler": "cacheFirst"
-      }
-    ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niceb5y/niceb5y.net"
   }
 }

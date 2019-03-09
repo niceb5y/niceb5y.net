@@ -1,7 +1,0 @@
-.BlogBlock #image-container {
-  overflow:hidden;
-}
-
-.BlogBlock img {
-  transform: translateY(50px)
-}
