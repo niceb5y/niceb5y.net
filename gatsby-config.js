@@ -29,7 +29,16 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-typescript`,
-    `gatsby-plugin-netlify`,
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {
+        headers: {
+          "/*": [
+            "Strict-Transport-Security: max-age=63072000; includeSubDomains; preload",
+          ],
+        },
+      },
+    },
     `gatsby-plugin-netlify-cache`,
   ],
 }
