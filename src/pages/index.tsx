@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import Image from "../components/Image"
 import SEO from "../components/SEO"
 import HelloBlock from "../components/HelloBlock"
 import BlogBlock from "../components/BlogBlock"
