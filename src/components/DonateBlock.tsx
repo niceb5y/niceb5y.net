@@ -1,7 +1,7 @@
 import React from "react"
 
 export default () => (
-  <div id="donate" className="block block-bordered-lg">
+  <div className="block block-bordered-lg">
     <div className="text-center">
       <h1 className="block-title">Donate</h1>
       <p className="lead pb-3">

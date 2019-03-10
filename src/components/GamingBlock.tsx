@@ -12,7 +12,7 @@ export default () => (
           <a href="https://psnprofiles.com/ShKim_niceb5y">
             <img
               src="https://card.psnprofiles.com/2/ShKim_niceb5y.png"
-              className="py-3"
+              className="py-3 w-100"
             />
           </a>
           <StaticQuery
