@@ -5,7 +5,7 @@ const Header = () => (
   <header>
     <nav className="navbar navbar-light my-4 px-0">
       <Link className="navbar-brand mr-auto" to="/">
-        niceb5y web
+        niceb5y web &#127895;
       </Link>
     </nav>
   </header>
