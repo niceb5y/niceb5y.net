@@ -10,6 +10,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta name="referrer" content="origin-when-cross-origin" />
         <link rel="stylesheet" href="https://cdn.shk.im/webcore/v19.css" />
         <script src="https://cdn.shk.im/webcore/v19.js" />
         {props.headComponents}
