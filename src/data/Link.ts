@@ -4,7 +4,7 @@ export default [
     url: "https://keybase.io/niceb5y/",
   },
   {
-    title: "#SaveTheInternetKR",
-    url: "https://savetheinternet.kr/",
+    title: "seungho.dev",
+    url: "https://seungho.dev/",
   },
 ]
