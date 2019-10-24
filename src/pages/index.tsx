@@ -7,7 +7,7 @@ import BlogBlock from "../components/BlogBlock"
 import ContactBlock from "../components/ContactBlock"
 import GamingBlock from "../components/GamingBlock"
 import LinkBlock from "../components/LinkBlock"
-import DonateBlock from "../components/DonateBlock"
+import CoffeeBlock from "../components/CoffeeBlock"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <ContactBlock />
     <GamingBlock />
     <LinkBlock />
-    <DonateBlock />
+    <CoffeeBlock />
   </Layout>
 )
 

@@ -3,7 +3,7 @@ import React from "react"
 export default () => (
   <div className="block block-bordered-lg">
     <div className="text-center">
-      <h1 className="block-title">Donate</h1>
+      <h1 className="block-title">Buy me a coffee</h1>
       <p className="lead pb-3">
         여러분의 돈은 소중합니다. 더 가치있는 곳에 쓰세요.
       </p>
