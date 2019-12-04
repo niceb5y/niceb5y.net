@@ -16,7 +16,7 @@ export default () => (
               className="py-3 w-100"
             />
           </a>
-          <img src="/images/mltd.png" className="py-3 w-100" />
+          <img src="/images/mltd.jpg" className="py-3 w-100" />
         </div>
       </div>
     </div>
