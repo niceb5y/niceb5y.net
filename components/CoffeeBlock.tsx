@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 
 export default () => (
   <div className="block block-bordered-lg">
@@ -17,7 +17,7 @@ export default () => (
           src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg"
           alt="Buy me a coffee"
         />
-        <span style={{ marginLeft: "5px" }}>Buy me a coffee</span>
+        <span style={{ marginLeft: '5px' }}>Buy me a coffee</span>
       </a>
     </div>
   </div>

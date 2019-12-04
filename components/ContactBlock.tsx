@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 
-import Contact from "./Contact"
-import ContactData from "../data/Contact"
+import Contact from './Contact'
+import ContactData from '../data/Contact'
 
 export default () => (
   <div className="block block-bordered-lg">

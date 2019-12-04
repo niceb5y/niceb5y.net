@@ -1,12 +1,13 @@
-import React from "react"
+import React from 'react'
 
-import { Link } from "gatsby"
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import Head from 'next/head'
+import Link from 'next/link'
 
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="페이지를 찾을 수 없습니다." />
+  <div>
+    <Head>
+      <title>페이지를 찾을 수 없습니다.</title>
+    </Head>
     <div className="row">
       <div className="block text-center">
         <h1 className="block-title">
@@ -15,12 +16,14 @@ const NotFoundPage = () => (
           </span>
         </h1>
         <p className="lead">요청하신 페이지를 찾을 수 없습니다.</p>
-        <Link className="btn btn-outline-primary" to="/" role="button">
-          메인으로 가기
+        <Link href="/">
+          <a className="btn btn-outline-primary" role="button">
+            메인으로 가기
+          </a>
         </Link>
       </div>
     </div>
-  </Layout>
+  </div>
 )
 
 export default NotFoundPage

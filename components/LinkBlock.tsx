@@ -1,6 +1,6 @@
-import React from "react"
+import React from 'react'
 
-import LinkData from "../data/Link"
+import LinkData from '../data/Link'
 
 export default () => (
   <div className="block block-bordered-lg">
