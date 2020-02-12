@@ -1,6 +1,0 @@
-niceb5y-net:
-  component: serverless-next.js
-  inputs:
-    domain: 'niceb5y.net'
-    bucketName: 'niceb5y-net'
-    build: true
