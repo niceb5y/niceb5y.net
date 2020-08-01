@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/blog/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://blog.niceb5y.net/$1" }
+    }
+  ]
+}
