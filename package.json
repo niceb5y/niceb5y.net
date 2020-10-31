@@ -5,24 +5,24 @@
   "version": "0.1.0",
   "author": "Seungho Kim <niceb5y@gmail.com>",
   "dependencies": {
-    "@types/node": "^14.10.1",
-    "@types/react": "^16.9.49",
-    "next": "^9.5.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "next": "^10.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.6",
-    "@types/jest": "^26.0.13",
+    "@babel/core": "^7.12.3",
+    "@types/jest": "^26.0.15",
     "@types/react-test-renderer": "^16.9.3",
-    "babel-jest": "^26.3.0",
+    "babel-jest": "^26.6.1",
     "husky": "^4.3.0",
-    "jest": "^26.4.2",
-    "prettier": "^2.1.1",
-    "pretty-quick": "^3.0.2",
-    "react-test-renderer": "^16.13.1",
-    "ts-jest": "^26.3.0",
-    "typescript": "^4.0.2"
+    "jest": "^26.6.1",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0",
+    "react-test-renderer": "^17.0.1",
+    "ts-jest": "^26.4.3",
+    "typescript": "^4.0.5"
   },
   "license": "MIT",
   "scripts": {
