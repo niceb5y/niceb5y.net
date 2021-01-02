@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  a {
+    text-decoration: none;
+    color: #0075c1;
+    &:hover {
+      color: lighten(#0075c1, 10%);
+    }
+  }
+}
+
+.thinking {
+  margin-bottom: 0;
+  font-size: 5em;
+}

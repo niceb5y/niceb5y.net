@@ -1,25 +1,27 @@
-import React from 'react'
 import Head from 'next/head'
 
-import HelloBlock from '../components/HelloBlock'
-import BlogBlock from '../components/BlogBlock'
-import ContactBlock from '../components/ContactBlock'
-import GamingBlock from '../components/GamingBlock'
-import LinkBlock from '../components/LinkBlock'
-import CoffeeBlock from '../components/CoffeeBlock'
+import SectionContainer from 'components/SectionContainer'
+import HelloSection from 'components/HelloSection'
+import ProfileSection from 'components/ProfileSection'
+import LinkSection from 'components/LinkSection'
+import GameSection from 'components/GameSection'
+import MiscSection from 'components/MiscSection'
 
 const Home = () => (
-  <div>
-    <Head>
-      <title>Hello - niceb5y web</title>
-    </Head>
-    <HelloBlock />
-    <BlogBlock />
-    <ContactBlock />
-    <GamingBlock />
-    <LinkBlock />
-    <CoffeeBlock />
-  </div>
+  <>
+    <div>
+      <Head>
+        <title>Hello - niceb5y web</title>
+      </Head>
+      <SectionContainer>
+        <HelloSection />
+        <ProfileSection />
+        <LinkSection />
+        <GameSection />
+        <MiscSection />
+      </SectionContainer>
+    </div>
+  </>
 )
 
 export default Home

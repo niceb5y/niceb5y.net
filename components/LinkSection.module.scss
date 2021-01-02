@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  li {
+    margin-right: 24px;
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #0075c1;
+    &:hover {
+      color: lighten(#0075c1, 10%);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .root {
+    h2 {
+      width: 200px;
+    }
+    ul {
+      flex-direction: column;
+      width: 200px;
+    }
+  }
+}

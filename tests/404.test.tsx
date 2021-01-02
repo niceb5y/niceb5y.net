@@ -1,6 +1,6 @@
 import * as React from 'react'
 import TestRenderer from 'react-test-renderer'
-import NotFound from '../pages/_error'
+import NotFound from '../pages/404'
 
 describe('Pages', () => {
   describe('NotFound', () => {

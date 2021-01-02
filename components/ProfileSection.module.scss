@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.round {
+  border-radius: 50px;
+}
+
+.profile {
+  font-family: Caveat;
+  font-size: 2em;
+  margin-bottom: 0;
+}
