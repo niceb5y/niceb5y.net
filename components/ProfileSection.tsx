@@ -12,7 +12,7 @@ const ProfileSection = () => (
       className={styles.round}
     />
     <h1 className={styles.profile}>김승호</h1>
-    <p>학생과 직장인 사이 그 어딘가.</p>
+    <p>null과 undefined 사이 그 어딘가.</p>
   </Section>
 )
 
